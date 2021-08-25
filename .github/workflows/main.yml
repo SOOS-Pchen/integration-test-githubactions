@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@master
 
     - name: Run SOOS - Scan for vulnerabilities
-      uses: SOOS-Pchen/integration_test_ghactions/github-actions@main
+      uses: SOOS-Pchen/integration_test_ghactions/github-action@main
       with:
         project_name: "peijin_testing_githubactions"
         base_uri: 'https://dev-api.soos.io/api/' 
