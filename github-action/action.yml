@@ -69,6 +69,8 @@ inputs:
     description: 'System info regarding operating system, etc.'
     required: false
     default: ''
+    
+  
 
 runs:
   using: "docker"
@@ -76,7 +78,8 @@ runs:
   env:
     SOOS_INTEGRATION_NAME: GITHUB_ACTIONS
     SOOS_INTEGRATION_VERSION: 'v0.1.0'
-
+    SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
+    SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
   args:
   - ${{ inputs.base_uri }}
   - ${{ inputs.project_name}}
