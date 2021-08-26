@@ -12,7 +12,7 @@ jobs:
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-ci-analysis-github-actions@main
       with:
-        project_name: "PROJECT NAME HERE"
+        project_name: "peijin_testing_github_actions_again"
         directories_to_exclude: ""
         files_to_exclude: ""
         base_uri: "https://dev-api.soos.io/api/"
