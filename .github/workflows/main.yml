@@ -13,7 +13,12 @@ jobs:
       uses: soos-io/soos-ci-analysis-github-actions@main
       with:
         project_name: "PROJECT NAME HERE"
-        base_uri: 'https://api.soos.io/api/' 
+        directories_to_exclude: ""
+        files_to_exclude: ""
+        analysis_result_max_wait: 300
+        analysis_result_polling_intervals: 10
+        debug_print_variables: true
+        
       env:
         # Visit https://soos.io to get the required tokens to leverage SOOS scanning/analysis services
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
