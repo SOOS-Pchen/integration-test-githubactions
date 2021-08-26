@@ -12,8 +12,8 @@ jobs:
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-ci-analysis-github-actions@main
       with:
-        project_name: "peijin_testing_githubactions"
-        base_uri: 'https://dev-api.soos.io/api/' 
+        project_name: "PROJECT NAME HERE"
+        base_uri: 'https://api.soos.io/api/' 
       env:
         # Visit https://soos.io to get the required tokens to leverage SOOS scanning/analysis services
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
