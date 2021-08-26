@@ -17,7 +17,7 @@ jobs:
         files_to_exclude: ""
         base_uri: "https://dev-api.soos.io/api/"
         analysis_result_max_wait: 300
-        analysis_result_polling_intervals: 10
+        analysis_result_polling_interval: 10
         debug_print_variables: true
         
       env:
