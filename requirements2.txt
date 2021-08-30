@@ -1,4 +1,5 @@
 keras
+fbprophet
 google
 pandas 
 sktime
