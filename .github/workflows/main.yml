@@ -1,6 +1,11 @@
 name: Initiate SOOS Scan
 # Events required to engage workflow (add/edit this list as needed)
-on: push
+on: 
+  push:
+    branches: 
+      - main 
+    paths:
+      - package.json
 jobs:
   synchronous-analysis-with-blocking-result:
     name: SOOS Scan
