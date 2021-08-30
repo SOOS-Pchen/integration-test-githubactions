@@ -1,5 +1,6 @@
 json
 requests
+nltk
 scipy
 flair 
 tensorflow
