@@ -4,3 +4,6 @@ google
 pandas 
 sktime
 fastai
+sklearn
+numpy
+
