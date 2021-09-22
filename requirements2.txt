@@ -1,9 +1,9 @@
 keras
-fbprophet
-google
+prophet
 pandas 
 sktime
 fastai
 sklearn
 numpy
-
+stats
+scipy
