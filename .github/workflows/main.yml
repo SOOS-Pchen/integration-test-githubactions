@@ -18,7 +18,7 @@ jobs:
       uses: soos-io/soos-ci-analysis-github-actions@main
       with:
         project_name: "peijin_testing_github_actions_again"
-        directories_to_exclude: ""
+        directories_to_exclude: "IgnoreMe"
         files_to_exclude: ""
         base_uri: "https://dev-api.soos.io/api/"
         analysis_result_max_wait: 300
