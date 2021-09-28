@@ -32,7 +32,7 @@
     "@ngrx/store": "^10.0.1",
     "@ngrx/store-devtools": "^10.0.1",
     "@ngvip/common-table": "0.2.4",
-    "@ngvip/local-storage-communicator": "0.0.3",
+    "@ngvip/local-storage-communicator": "0.0.4",
     "@ngvip/service": "0.0.15",
     "@ngvip/ui": "0.1.4",
     "core-js": "^3.6.5",
