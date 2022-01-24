@@ -1,5 +1,5 @@
-on: [push]
-  workflow_dispatch:
+on: workflow_dispatch
+
 jobs:
   soos_dast_analysis_example:
     name: SOOS DAST Analysis Example
