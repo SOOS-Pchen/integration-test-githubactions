@@ -20,7 +20,7 @@ jobs:
         project_name: "peijin_testing_github_actions_again"
         directories_to_exclude: "IgnoreMe"
         files_to_exclude: ""
-        base_uri: "https://dev-api.soos.io/api/"
+        base_uri: "https://qa-api.soos.io/api/"
         analysis_result_max_wait: 300
         analysis_result_polling_interval: 10
         debug_print_variables: true
@@ -30,8 +30,6 @@ jobs:
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
         SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
 
-
-on: [push]
 
 jobs:
   soos_dast_analysis_example:
@@ -45,5 +43,5 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "DAST-GitHub-Action-Test"
           scan_mode: "baseline"
-          api_url: "https://dev-api.soos.io/api/"
+          api_url: "https://qa-api.soos.io/api/"
           target_url: "https://brokencrystals.com/"
