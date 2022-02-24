@@ -30,7 +30,7 @@ jobs:
         SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
         SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
 
-name: DAST shit bro 
+
 on: [push]
 
 jobs:
