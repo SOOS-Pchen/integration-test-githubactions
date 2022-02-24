@@ -46,4 +46,4 @@ jobs:
           project_name: "DAST-GitHub-Action-Test"
           scan_mode: "baseline"
           api_url: "https://dev-api.soos.io/api/"
-          target_url: "https://www.brokencrystals.com/"
+          target_url: "https://brokencrystals.com/"
