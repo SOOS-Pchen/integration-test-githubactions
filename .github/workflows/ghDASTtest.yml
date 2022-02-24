@@ -1,4 +1,4 @@
-on: workflow_dispatch
+on: [push]
 
 jobs:
   soos_dast_analysis_example:
@@ -6,11 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Analysis
-        uses: https://github.com/soos-io/dast-github-actions@v1
+        uses: soos-io/soos-dast-github-action@v1
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "DAST-GitHub-Action-Test"
           scan_mode: "baseline"
           api_url: "https://dev-api.soos.io/api/"
-          target_url: "https://soos-dast-juice-shop.herokuapp.com/"
+          target_url: "https://www.brokencrystals.com/"
