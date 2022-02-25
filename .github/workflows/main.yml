@@ -31,7 +31,6 @@ jobs:
         SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
 
 
-jobs:
   soos_dast_analysis_example:
     name: SOOS DAST Analysis Example
     runs-on: ubuntu-latest
